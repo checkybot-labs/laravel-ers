@@ -1,15 +1,15 @@
 {
-    "name": "spatie/laravel-flare",
-    "description": "Send Laravel errors to Flare",
+    "name": "emefye/laravel-ers",
+    "description": "Laravel Error Reporting System",
     "keywords": [
         "error",
         "laravel",
-        "flare"
+        "report"
     ],
     "authors": [
         {
-            "name": "Spatie",
-            "email": "info@spatie.be",
+            "name": "Emefye",
+            "email": "fuadyahya09@gmail.com",
             "role": "Developer"
         }
     ],
