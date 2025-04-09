@@ -44,6 +44,20 @@ return [
     /*
     |
     |--------------------------------------------------------------------------
+    | Flare Base URL
+    |--------------------------------------------------------------------------
+    |
+    | Specify Flare's Base URL below to enable error reporting to the desired endpoint.
+    |
+    | More info: https://flareapp.io/docs/flare/general/getting-started
+    |
+    */
+
+    'base_url' => env('FLARE_BASE_URL'),
+
+    /*
+    |
+    |--------------------------------------------------------------------------
     | Flare API key
     |--------------------------------------------------------------------------
     |
