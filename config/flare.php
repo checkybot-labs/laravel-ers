@@ -53,7 +53,7 @@ return [
     |
     */
 
-    'base_url' => env('FLARE_BASE_URL'),
+    'base_url' => env('FLARE_BASE_URL', 'https://checkybot.com/api/v1'),
 
     /*
     |
@@ -283,4 +283,35 @@ return [
     'overridden_groupings' => [
 //        Illuminate\Http\Client\ConnectionException::class => Spatie\FlareClient\Enums\OverriddenGrouping::ExceptionMessageAndClass,
     ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | cURL Timeout
+    |--------------------------------------------------------------------------
+    |
+    | Sets the maximum number of seconds the request is allowed to take.
+    | This prevents the application from waiting indefinitely if the
+    | remote server is slow or unresponsive.
+    |
+    | More info: https://www.php.net/manual/en/function.curl-setopt.php
+    |
+    */
+
+    'curl_timeout' => env('FLARE_CURL_TIMEOUT', 60),
+
+    /*
+    |--------------------------------------------------------------------------
+    | SSL Certificate Verification
+    |--------------------------------------------------------------------------
+    |
+    | Determines whether to verify the authenticity of the SSL certificate
+    | when making HTTPS requests. Setting this to true ensures that the
+    | remote server is trusted and prevents man-in-the-middle attacks.
+    |
+    | More info: https://www.php.net/manual/en/function.curl-setopt.php
+    |
+    */
+
+    'curl_ssl_verify_peer' => env('FLARE_CURL_SSL_VERIFY_PEER', false),
+
 ];

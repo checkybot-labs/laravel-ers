@@ -83,6 +83,8 @@ class FlareServiceProvider extends ServiceProvider
             $flare = Flare::make()
                 ->setApiToken(config('flare.key') ?? '')
                 ->setBaseUrl(config('flare.base_url', 'https://checkybot.com/api/v1'))
+                ->setCurlTimeout(config('flare.curl_timeout'))
+                ->setCurlSslVerifyPeer(config('flare.curl_ssl_verify_peer'))
                 ->applicationPath(base_path())
                 ->setStage(app()->environment())
                 ->setContextProviderDetector(new LaravelContextProviderDetector())
