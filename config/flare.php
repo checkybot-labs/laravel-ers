@@ -312,6 +312,6 @@ return [
     |
     */
 
-    'curl_ssl_verify_peer' => env('FLARE_CURL_SSL_VERIFY_PEER', false),
+    'curl_ssl_verify_peer' => env('FLARE_CURL_SSL_VERIFY_PEER', true),
 
 ];
