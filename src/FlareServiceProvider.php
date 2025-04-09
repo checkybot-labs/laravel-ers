@@ -82,7 +82,7 @@ class FlareServiceProvider extends ServiceProvider
         $this->app->singleton(Flare::class, function () {
             $flare = Flare::make()
                 ->setApiToken(config('flare.key') ?? '')
-                ->setBaseUrl(config('flare.base_url', 'https://flareapp.io/api'))
+                ->setBaseUrl(config('flare.base_url', 'https://checkybot.com/api/v1'))
                 ->applicationPath(base_path())
                 ->setStage(app()->environment())
                 ->setContextProviderDetector(new LaravelContextProviderDetector())
