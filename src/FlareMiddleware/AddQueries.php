@@ -2,8 +2,8 @@
 
 namespace Emefye\LaravelErs\FlareMiddleware;
 
-use Emefye\LaravelErsClient\Report;
 use Emefye\LaravelErs\Recorders\QueryRecorder\QueryRecorder;
+use Emefye\LaravelErsClient\Report;
 
 class AddQueries
 {

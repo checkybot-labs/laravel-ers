@@ -2,10 +2,10 @@
 
 namespace Emefye\LaravelErs\ContextProviders;
 
-use Illuminate\Http\Request;
-use Livewire\LivewireManager;
 use Emefye\LaravelErsClient\Context\ContextProvider;
 use Emefye\LaravelErsClient\Context\ContextProviderDetector;
+use Illuminate\Http\Request;
+use Livewire\LivewireManager;
 
 class LaravelContextProviderDetector implements ContextProviderDetector
 {

@@ -2,10 +2,10 @@
 
 namespace Emefye\LaravelErs\Facades;
 
+use Emefye\LaravelErs\Support\SentReports;
+use Emefye\LaravelErsClient\Flare as FlareClient;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Support\Facades\Facade;
-use Emefye\LaravelErsClient\Flare as FlareClient;
-use Emefye\LaravelErs\Support\SentReports;
 use Throwable;
 
 /**

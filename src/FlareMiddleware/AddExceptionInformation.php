@@ -2,11 +2,11 @@
 
 namespace Emefye\LaravelErs\FlareMiddleware;
 
-use Illuminate\Database\QueryException;
-use Illuminate\Support\Facades\DB;
 use Emefye\LaravelErsClient\Contracts\ProvidesFlareContext;
 use Emefye\LaravelErsClient\FlareMiddleware\FlareMiddleware;
 use Emefye\LaravelErsClient\Report;
+use Illuminate\Database\QueryException;
+use Illuminate\Support\Facades\DB;
 use Throwable;
 
 class AddExceptionInformation implements FlareMiddleware

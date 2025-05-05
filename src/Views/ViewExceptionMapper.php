@@ -2,6 +2,8 @@
 
 namespace Emefye\LaravelErs\Views;
 
+use Emefye\LaravelErs\Exceptions\ViewException as FlareViewException;
+use Emefye\LaravelErs\Exceptions\ViewExceptionWithSolution;
 use Illuminate\Contracts\View\Engine;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Arr;
@@ -11,8 +13,6 @@ use Illuminate\View\ViewException;
 use ReflectionClass;
 use ReflectionProperty;
 use Spatie\ErrorSolutions\Contracts\ProvidesSolution;
-use Emefye\LaravelErs\Exceptions\ViewException as FlareViewException;
-use Emefye\LaravelErs\Exceptions\ViewExceptionWithSolution;
 use Throwable;
 
 class ViewExceptionMapper
