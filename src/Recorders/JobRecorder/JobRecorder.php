@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelFlare\Recorders\JobRecorder;
+namespace Emefye\LaravelErs\Recorders\JobRecorder;
 
 use DateTime;
 use Error;

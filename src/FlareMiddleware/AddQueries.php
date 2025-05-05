@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\LaravelFlare\FlareMiddleware;
+namespace Emefye\LaravelErs\FlareMiddleware;
 
-use Spatie\FlareClient\Report;
-use Spatie\LaravelFlare\Recorders\QueryRecorder\QueryRecorder;
+use Emefye\LaravelErsClient\Report;
+use Emefye\LaravelErs\Recorders\QueryRecorder\QueryRecorder;
 
 class AddQueries
 {

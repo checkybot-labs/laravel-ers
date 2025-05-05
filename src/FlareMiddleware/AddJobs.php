@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\LaravelFlare\FlareMiddleware;
+namespace Emefye\LaravelErs\FlareMiddleware;
 
-use Spatie\FlareClient\FlareMiddleware\FlareMiddleware;
-use Spatie\FlareClient\Report;
-use Spatie\LaravelFlare\Recorders\JobRecorder\JobRecorder;
+use Emefye\LaravelErsClient\FlareMiddleware\FlareMiddleware;
+use Emefye\LaravelErsClient\Report;
+use Emefye\LaravelErs\Recorders\JobRecorder\JobRecorder;
 
 class AddJobs implements FlareMiddleware
 {

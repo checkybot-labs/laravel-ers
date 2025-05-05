@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelFlare\Exceptions;
+namespace Emefye\LaravelErs\Exceptions;
 
 use Spatie\ErrorSolutions\Contracts\ProvidesSolution;
 use Spatie\ErrorSolutions\Contracts\Solution;

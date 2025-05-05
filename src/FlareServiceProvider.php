@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelFlare;
+namespace Emefye\LaravelErs;
 
 use Exception;
 use Illuminate\Contracts\Debug\ExceptionHandler;
@@ -15,22 +15,22 @@ use Laravel\Octane\Events\TickReceived;
 use Monolog\Level;
 use Monolog\Logger;
 use Spatie\ErrorSolutions\SolutionProviderRepository;
-use Spatie\FlareClient\Flare;
-use Spatie\FlareClient\FlareMiddleware\AddSolutions;
+use Emefye\LaravelErsClient\Flare;
+use Emefye\LaravelErsClient\FlareMiddleware\AddSolutions;
 use Spatie\Ignition\Contracts\SolutionProviderRepository as SolutionProviderRepositoryContract;
-use Spatie\LaravelFlare\Commands\TestCommand;
-use Spatie\LaravelFlare\ContextProviders\LaravelContextProviderDetector;
-use Spatie\LaravelFlare\Exceptions\InvalidConfig;
-use Spatie\LaravelFlare\FlareMiddleware\AddJobs;
-use Spatie\LaravelFlare\FlareMiddleware\AddLogs;
-use Spatie\LaravelFlare\FlareMiddleware\AddQueries;
-use Spatie\LaravelFlare\Recorders\DumpRecorder\DumpRecorder;
-use Spatie\LaravelFlare\Recorders\JobRecorder\JobRecorder;
-use Spatie\LaravelFlare\Recorders\LogRecorder\LogRecorder;
-use Spatie\LaravelFlare\Recorders\QueryRecorder\QueryRecorder;
-use Spatie\LaravelFlare\Support\FlareLogHandler;
-use Spatie\LaravelFlare\Support\SentReports;
-use Spatie\LaravelFlare\Views\ViewExceptionMapper;
+use Emefye\LaravelErs\Commands\TestCommand;
+use Emefye\LaravelErs\ContextProviders\LaravelContextProviderDetector;
+use Emefye\LaravelErs\Exceptions\InvalidConfig;
+use Emefye\LaravelErs\FlareMiddleware\AddJobs;
+use Emefye\LaravelErs\FlareMiddleware\AddLogs;
+use Emefye\LaravelErs\FlareMiddleware\AddQueries;
+use Emefye\LaravelErs\Recorders\DumpRecorder\DumpRecorder;
+use Emefye\LaravelErs\Recorders\JobRecorder\JobRecorder;
+use Emefye\LaravelErs\Recorders\LogRecorder\LogRecorder;
+use Emefye\LaravelErs\Recorders\QueryRecorder\QueryRecorder;
+use Emefye\LaravelErs\Support\FlareLogHandler;
+use Emefye\LaravelErs\Support\SentReports;
+use Emefye\LaravelErs\Views\ViewExceptionMapper;
 
 class FlareServiceProvider extends ServiceProvider
 {

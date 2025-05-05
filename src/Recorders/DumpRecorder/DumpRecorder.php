@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelFlare\Recorders\DumpRecorder;
+namespace Emefye\LaravelErs\Recorders\DumpRecorder;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\Arr;

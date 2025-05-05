@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\LaravelFlare\ContextProviders;
+namespace Emefye\LaravelErs\ContextProviders;
 
-use Spatie\FlareClient\Context\ConsoleContextProvider;
+use Emefye\LaravelErsClient\Context\ConsoleContextProvider;
 
 class LaravelConsoleContextProvider extends ConsoleContextProvider
 {

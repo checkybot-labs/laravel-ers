@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\LaravelFlare\FlareMiddleware;
+namespace Emefye\LaravelErs\FlareMiddleware;
 
 use Closure;
-use Spatie\FlareClient\FlareMiddleware\FlareMiddleware;
-use Spatie\FlareClient\Report;
-use Spatie\LaravelFlare\Recorders\DumpRecorder\DumpRecorder;
+use Emefye\LaravelErsClient\FlareMiddleware\FlareMiddleware;
+use Emefye\LaravelErsClient\Report;
+use Emefye\LaravelErs\Recorders\DumpRecorder\DumpRecorder;
 
 class AddDumps implements FlareMiddleware
 {

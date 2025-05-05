@@ -1,19 +1,19 @@
 <?php
 
-namespace Spatie\LaravelFlare\Facades;
+namespace Emefye\LaravelErs\Facades;
 
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Support\Facades\Facade;
-use Spatie\FlareClient\Flare as FlareClient;
-use Spatie\LaravelFlare\Support\SentReports;
+use Emefye\LaravelErsClient\Flare as FlareClient;
+use Emefye\LaravelErs\Support\SentReports;
 use Throwable;
 
 /**
- * @method static void glow(string $name, string $messageLevel = \Spatie\FlareClient\Enums\MessageLevels::INFO, array $metaData = [])
+ * @method static void glow(string $name, string $messageLevel = \Emefye\LaravelErsClient\Enums\MessageLevels::INFO, array $metaData = [])
  * @method static void context($key, $value)
  * @method static void group(string $groupName, array $properties)
  *
- * @see \Spatie\FlareClient\Flare
+ * @see \Emefye\LaravelErsClient\Flare
  */
 class Flare extends Facade
 {

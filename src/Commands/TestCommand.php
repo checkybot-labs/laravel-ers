@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelFlare\Commands;
+namespace Emefye\LaravelErs\Commands;
 
 use Closure;
 use Composer\InstalledVersions;
@@ -14,8 +14,8 @@ use Laravel\SerializableClosure\Support\ReflectionClosure;
 use ReflectionException;
 use ReflectionNamedType;
 use ReflectionProperty;
-use Spatie\FlareClient\Flare;
-use Spatie\FlareClient\Http\Exceptions\BadResponseCode;
+use Emefye\LaravelErsClient\Flare;
+use Emefye\LaravelErsClient\Http\Exceptions\BadResponseCode;
 
 class TestCommand extends Command
 {

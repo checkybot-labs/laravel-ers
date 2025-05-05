@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelFlare\Exceptions;
+namespace Emefye\LaravelErs\Exceptions;
 
 use Exception;
 use Monolog\Level;

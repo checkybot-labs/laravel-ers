@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\LaravelFlare\ContextProviders;
+namespace Emefye\LaravelErs\ContextProviders;
 
 use Illuminate\Http\Request;
 use Livewire\LivewireManager;
-use Spatie\FlareClient\Context\ContextProvider;
-use Spatie\FlareClient\Context\ContextProviderDetector;
+use Emefye\LaravelErsClient\Context\ContextProvider;
+use Emefye\LaravelErsClient\Context\ContextProviderDetector;
 
 class LaravelContextProviderDetector implements ContextProviderDetector
 {

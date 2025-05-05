@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelFlare\Recorders\QueryRecorder;
+namespace Emefye\LaravelErs\Recorders\QueryRecorder;
 
 use Illuminate\Database\Events\QueryExecuted;
 

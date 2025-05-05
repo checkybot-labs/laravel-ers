@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelFlare\Support;
+namespace Emefye\LaravelErs\Support;
 
 class LaravelVersion
 {

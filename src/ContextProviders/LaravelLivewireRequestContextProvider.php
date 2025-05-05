@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelFlare\ContextProviders;
+namespace Emefye\LaravelErs\ContextProviders;
 
 use Exception;
 use Illuminate\Http\Request;

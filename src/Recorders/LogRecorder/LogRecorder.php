@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelFlare\Recorders\LogRecorder;
+namespace Emefye\LaravelErs\Recorders\LogRecorder;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Log\Events\MessageLogged;
@@ -8,7 +8,7 @@ use Throwable;
 
 class LogRecorder
 {
-    /** @var \Spatie\LaravelFlare\Recorders\LogRecorder\LogMessage[] */
+    /** @var \Emefye\LaravelErs\Recorders\LogRecorder\LogMessage[] */
     protected array $logMessages = [];
 
     protected Application $app;

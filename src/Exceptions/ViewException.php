@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\LaravelFlare\Exceptions;
+namespace Emefye\LaravelErs\Exceptions;
 
 use ErrorException;
-use Spatie\FlareClient\Contracts\ProvidesFlareContext;
-use Spatie\LaravelFlare\Recorders\DumpRecorder\HtmlDumper;
+use Emefye\LaravelErsClient\Contracts\ProvidesFlareContext;
+use Emefye\LaravelErs\Recorders\DumpRecorder\HtmlDumper;
 
 class ViewException extends ErrorException implements ProvidesFlareContext
 {

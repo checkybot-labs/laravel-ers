@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\LaravelFlare\Support;
+namespace Emefye\LaravelErs\Support;
 
 use Illuminate\Support\Arr;
-use Spatie\FlareClient\Report;
+use Emefye\LaravelErsClient\Report;
 
 class SentReports
 {

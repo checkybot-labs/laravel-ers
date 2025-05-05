@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\LaravelFlare\ContextProviders;
+namespace Emefye\LaravelErs\ContextProviders;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request as LaravelRequest;
-use Spatie\FlareClient\Context\RequestContextProvider;
+use Emefye\LaravelErsClient\Context\RequestContextProvider;
 use Symfony\Component\HttpFoundation\Request as SymphonyRequest;
 use Throwable;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelFlare\Recorders\LogRecorder;
+namespace Emefye\LaravelErs\Recorders\LogRecorder;
 
 use Illuminate\Log\Events\MessageLogged;
 
