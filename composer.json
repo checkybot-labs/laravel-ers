@@ -20,7 +20,7 @@
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "emefye/laravel-ers-client": "^1.3@dev",
+        "emefye/laravel-ers-client": "^1.0",
         "illuminate/support": "^11.0|^12.0",
         "spatie/error-solutions": "^1.1.3",
         "spatie/laravel-error-share": "^1.0.3",
