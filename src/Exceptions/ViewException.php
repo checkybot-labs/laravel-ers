@@ -2,9 +2,9 @@
 
 namespace Emefye\LaravelErs\Exceptions;
 
-use ErrorException;
-use Emefye\LaravelErsClient\Contracts\ProvidesFlareContext;
 use Emefye\LaravelErs\Recorders\DumpRecorder\HtmlDumper;
+use Emefye\LaravelErsClient\Contracts\ProvidesFlareContext;
+use ErrorException;
 
 class ViewException extends ErrorException implements ProvidesFlareContext
 {

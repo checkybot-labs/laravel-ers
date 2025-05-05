@@ -2,22 +2,6 @@
 
 namespace Emefye\LaravelErs;
 
-use Exception;
-use Illuminate\Contracts\Debug\ExceptionHandler;
-use Illuminate\Foundation\Application;
-use Illuminate\Support\Facades\Log;
-use Illuminate\Support\ServiceProvider;
-use Illuminate\View\ViewException;
-use Laravel\Octane\Events\RequestReceived;
-use Laravel\Octane\Events\RequestTerminated;
-use Laravel\Octane\Events\TaskReceived;
-use Laravel\Octane\Events\TickReceived;
-use Monolog\Level;
-use Monolog\Logger;
-use Spatie\ErrorSolutions\SolutionProviderRepository;
-use Emefye\LaravelErsClient\Flare;
-use Emefye\LaravelErsClient\FlareMiddleware\AddSolutions;
-use Spatie\Ignition\Contracts\SolutionProviderRepository as SolutionProviderRepositoryContract;
 use Emefye\LaravelErs\Commands\TestCommand;
 use Emefye\LaravelErs\ContextProviders\LaravelContextProviderDetector;
 use Emefye\LaravelErs\Exceptions\InvalidConfig;
@@ -31,6 +15,22 @@ use Emefye\LaravelErs\Recorders\QueryRecorder\QueryRecorder;
 use Emefye\LaravelErs\Support\FlareLogHandler;
 use Emefye\LaravelErs\Support\SentReports;
 use Emefye\LaravelErs\Views\ViewExceptionMapper;
+use Emefye\LaravelErsClient\Flare;
+use Emefye\LaravelErsClient\FlareMiddleware\AddSolutions;
+use Exception;
+use Illuminate\Contracts\Debug\ExceptionHandler;
+use Illuminate\Foundation\Application;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\ServiceProvider;
+use Illuminate\View\ViewException;
+use Laravel\Octane\Events\RequestReceived;
+use Laravel\Octane\Events\RequestTerminated;
+use Laravel\Octane\Events\TaskReceived;
+use Laravel\Octane\Events\TickReceived;
+use Monolog\Level;
+use Monolog\Logger;
+use Spatie\ErrorSolutions\SolutionProviderRepository;
+use Spatie\Ignition\Contracts\SolutionProviderRepository as SolutionProviderRepositoryContract;
 
 class FlareServiceProvider extends ServiceProvider
 {

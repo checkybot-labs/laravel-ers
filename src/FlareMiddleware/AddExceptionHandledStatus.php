@@ -3,9 +3,9 @@
 namespace Emefye\LaravelErs\FlareMiddleware;
 
 use Closure;
-use Spatie\Backtrace\Backtrace;
 use Emefye\LaravelErsClient\FlareMiddleware\FlareMiddleware;
 use Emefye\LaravelErsClient\Report;
+use Spatie\Backtrace\Backtrace;
 use Throwable;
 
 class AddExceptionHandledStatus implements FlareMiddleware

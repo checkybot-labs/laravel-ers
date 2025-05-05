@@ -2,9 +2,9 @@
 
 namespace Emefye\LaravelErs\FlareMiddleware;
 
+use Emefye\LaravelErs\Recorders\JobRecorder\JobRecorder;
 use Emefye\LaravelErsClient\FlareMiddleware\FlareMiddleware;
 use Emefye\LaravelErsClient\Report;
-use Emefye\LaravelErs\Recorders\JobRecorder\JobRecorder;
 
 class AddJobs implements FlareMiddleware
 {

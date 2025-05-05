@@ -2,9 +2,9 @@
 
 namespace Emefye\LaravelErs\ContextProviders;
 
+use Emefye\LaravelErsClient\Context\RequestContextProvider;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request as LaravelRequest;
-use Emefye\LaravelErsClient\Context\RequestContextProvider;
 use Symfony\Component\HttpFoundation\Request as SymphonyRequest;
 use Throwable;
 

@@ -3,9 +3,9 @@
 namespace Emefye\LaravelErs\FlareMiddleware;
 
 use Closure;
+use Emefye\LaravelErs\Recorders\DumpRecorder\DumpRecorder;
 use Emefye\LaravelErsClient\FlareMiddleware\FlareMiddleware;
 use Emefye\LaravelErsClient\Report;
-use Emefye\LaravelErs\Recorders\DumpRecorder\DumpRecorder;
 
 class AddDumps implements FlareMiddleware
 {

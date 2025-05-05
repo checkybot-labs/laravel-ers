@@ -2,8 +2,8 @@
 
 namespace Emefye\LaravelErs\Support;
 
-use Illuminate\Support\Arr;
 use Emefye\LaravelErsClient\Report;
+use Illuminate\Support\Arr;
 
 class SentReports
 {

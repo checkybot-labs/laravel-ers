@@ -2,13 +2,13 @@
 
 namespace Emefye\LaravelErs\Support;
 
+use Emefye\LaravelErsClient\Flare;
+use Emefye\LaravelErsClient\Report;
 use InvalidArgumentException;
 use Monolog\Handler\AbstractProcessingHandler;
 use Monolog\Level;
 use Monolog\Logger;
 use Monolog\LogRecord;
-use Emefye\LaravelErsClient\Flare;
-use Emefye\LaravelErsClient\Report;
 use Throwable;
 
 class FlareLogHandler extends AbstractProcessingHandler

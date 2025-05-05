@@ -3,10 +3,10 @@
 namespace Emefye\LaravelErs\FlareMiddleware;
 
 use Closure;
-use Illuminate\Log\Context\Repository;
-use Illuminate\Support\Facades\Context;
 use Emefye\LaravelErsClient\FlareMiddleware\FlareMiddleware;
 use Emefye\LaravelErsClient\Report;
+use Illuminate\Log\Context\Repository;
+use Illuminate\Support\Facades\Context;
 
 class AddContext implements FlareMiddleware
 {

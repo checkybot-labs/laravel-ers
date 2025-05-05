@@ -4,6 +4,8 @@ namespace Emefye\LaravelErs\Commands;
 
 use Closure;
 use Composer\InstalledVersions;
+use Emefye\LaravelErsClient\Flare;
+use Emefye\LaravelErsClient\Http\Exceptions\BadResponseCode;
 use Exception;
 use Illuminate\Config\Repository;
 use Illuminate\Console\Command;
@@ -14,8 +16,6 @@ use Laravel\SerializableClosure\Support\ReflectionClosure;
 use ReflectionException;
 use ReflectionNamedType;
 use ReflectionProperty;
-use Emefye\LaravelErsClient\Flare;
-use Emefye\LaravelErsClient\Http\Exceptions\BadResponseCode;
 
 class TestCommand extends Command
 {
