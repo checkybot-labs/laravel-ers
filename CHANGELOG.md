@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-flare` will be documented in this file
 
+## v1.0.0 - 2025-05-05
+
+**Full Changelog**: https://github.com/emefye/laravel-ers/commits/v1.0.0
+
 ## 1.1.2 - 2025-03-01
 
 ### What's Changed
