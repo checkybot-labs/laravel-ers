@@ -1,19 +1,19 @@
 <?php
 
-namespace Emefye\LaravelErs\Facades;
+namespace CheckybotLabs\LaravelErs\Facades;
 
-use Emefye\LaravelErs\Support\SentReports;
-use Emefye\LaravelErsClient\Flare as FlareClient;
+use CheckybotLabs\LaravelErs\Support\SentReports;
+use CheckybotLabs\LaravelErsClient\Flare as FlareClient;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Support\Facades\Facade;
 use Throwable;
 
 /**
- * @method static void glow(string $name, string $messageLevel = \Emefye\LaravelErsClient\Enums\MessageLevels::INFO, array $metaData = [])
+ * @method static void glow(string $name, string $messageLevel = \CheckybotLabs\LaravelErsClient\Enums\MessageLevels::INFO, array $metaData = [])
  * @method static void context($key, $value)
  * @method static void group(string $groupName, array $properties)
  *
- * @see \Emefye\LaravelErsClient\Flare
+ * @see \CheckybotLabs\LaravelErsClient\Flare
  */
 class Flare extends Facade
 {

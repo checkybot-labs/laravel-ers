@@ -1,9 +1,9 @@
 <?php
 
-namespace Emefye\LaravelErs\FlareMiddleware;
+namespace CheckybotLabs\LaravelErs\FlareMiddleware;
 
-use Emefye\LaravelErsClient\FlareMiddleware\FlareMiddleware;
-use Emefye\LaravelErsClient\Report;
+use CheckybotLabs\LaravelErsClient\FlareMiddleware\FlareMiddleware;
+use CheckybotLabs\LaravelErsClient\Report;
 
 class AddNotifierName implements FlareMiddleware
 {

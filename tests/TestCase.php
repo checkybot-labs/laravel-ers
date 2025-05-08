@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelFlare\Tests;
+namespace CheckybotLabs\LaravelFlare\Tests;
 
 use Illuminate\Foundation\Testing\Concerns\MakesHttpRequests;
 use Illuminate\Http\Request;
@@ -8,7 +8,7 @@ use Spatie\FlareClient\Glows\Glow;
 use Spatie\FlareClient\Report;
 use Spatie\LaravelFlare\Facades\Flare;
 use Spatie\LaravelFlare\FlareServiceProvider;
-use Spatie\LaravelFlare\Tests\TestClasses\FakeTime;
+use CheckybotLabs\LaravelFlare\Tests\TestClasses\FakeTime;
 use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
 
 class TestCase extends \Orchestra\Testbench\TestCase

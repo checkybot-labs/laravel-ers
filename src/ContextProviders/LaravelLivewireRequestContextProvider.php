@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErs\ContextProviders;
+namespace CheckybotLabs\LaravelErs\ContextProviders;
 
 use Exception;
 use Illuminate\Http\Request;

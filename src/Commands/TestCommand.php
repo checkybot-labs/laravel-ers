@@ -1,11 +1,11 @@
 <?php
 
-namespace Emefye\LaravelErs\Commands;
+namespace CheckybotLabs\LaravelErs\Commands;
 
 use Closure;
 use Composer\InstalledVersions;
-use Emefye\LaravelErsClient\Flare;
-use Emefye\LaravelErsClient\Http\Exceptions\BadResponseCode;
+use CheckybotLabs\LaravelErsClient\Flare;
+use CheckybotLabs\LaravelErsClient\Http\Exceptions\BadResponseCode;
 use Exception;
 use Illuminate\Config\Repository;
 use Illuminate\Console\Command;

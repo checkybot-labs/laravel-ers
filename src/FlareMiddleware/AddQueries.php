@@ -1,9 +1,9 @@
 <?php
 
-namespace Emefye\LaravelErs\FlareMiddleware;
+namespace CheckybotLabs\LaravelErs\FlareMiddleware;
 
-use Emefye\LaravelErs\Recorders\QueryRecorder\QueryRecorder;
-use Emefye\LaravelErsClient\Report;
+use CheckybotLabs\LaravelErs\Recorders\QueryRecorder\QueryRecorder;
+use CheckybotLabs\LaravelErsClient\Report;
 
 class AddQueries
 {

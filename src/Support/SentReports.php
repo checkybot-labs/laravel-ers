@@ -1,8 +1,8 @@
 <?php
 
-namespace Emefye\LaravelErs\Support;
+namespace CheckybotLabs\LaravelErs\Support;
 
-use Emefye\LaravelErsClient\Report;
+use CheckybotLabs\LaravelErsClient\Report;
 use Illuminate\Support\Arr;
 
 class SentReports

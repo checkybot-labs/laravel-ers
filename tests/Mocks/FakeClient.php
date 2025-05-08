@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelFlare\Tests\Mocks;
+namespace CheckybotLabs\LaravelFlare\Tests\Mocks;
 
 use Illuminate\Support\Arr;
 use PHPUnit\Framework\Assert;

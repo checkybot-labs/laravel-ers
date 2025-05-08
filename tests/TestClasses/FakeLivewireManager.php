@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelFlare\Tests\TestClasses;
+namespace CheckybotLabs\LaravelFlare\Tests\TestClasses;
 
 use Livewire\LivewireManager;
 use Livewire\Mechanisms\ComponentRegistry;

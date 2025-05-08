@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelFlare\Tests\TestClasses;
+namespace CheckybotLabs\LaravelFlare\Tests\TestClasses;
 
 use Spatie\ErrorSolutions\Contracts\BaseSolution;
 use Spatie\ErrorSolutions\Contracts\ProvidesSolution;

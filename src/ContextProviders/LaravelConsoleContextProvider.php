@@ -1,8 +1,8 @@
 <?php
 
-namespace Emefye\LaravelErs\ContextProviders;
+namespace CheckybotLabs\LaravelErs\ContextProviders;
 
-use Emefye\LaravelErsClient\Context\ConsoleContextProvider;
+use CheckybotLabs\LaravelErsClient\Context\ConsoleContextProvider;
 
 class LaravelConsoleContextProvider extends ConsoleContextProvider
 {

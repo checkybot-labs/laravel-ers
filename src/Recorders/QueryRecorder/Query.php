@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErs\Recorders\QueryRecorder;
+namespace CheckybotLabs\LaravelErs\Recorders\QueryRecorder;
 
 use Illuminate\Database\Events\QueryExecuted;
 

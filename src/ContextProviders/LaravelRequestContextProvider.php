@@ -1,8 +1,8 @@
 <?php
 
-namespace Emefye\LaravelErs\ContextProviders;
+namespace CheckybotLabs\LaravelErs\ContextProviders;
 
-use Emefye\LaravelErsClient\Context\RequestContextProvider;
+use CheckybotLabs\LaravelErsClient\Context\RequestContextProvider;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request as LaravelRequest;
 use Symfony\Component\HttpFoundation\Request as SymphonyRequest;

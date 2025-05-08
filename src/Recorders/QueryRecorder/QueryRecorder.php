@@ -1,13 +1,13 @@
 <?php
 
-namespace Emefye\LaravelErs\Recorders\QueryRecorder;
+namespace CheckybotLabs\LaravelErs\Recorders\QueryRecorder;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Database\Events\QueryExecuted;
 
 class QueryRecorder
 {
-    /** @var \Emefye\LaravelErs\Recorders\QueryRecorder\Query[] */
+    /** @var \CheckybotLabs\LaravelErs\Recorders\QueryRecorder\Query[] */
     protected array $queries = [];
 
     protected Application $app;

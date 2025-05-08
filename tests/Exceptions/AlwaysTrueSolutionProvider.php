@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelFlare\Tests\Exceptions;
+namespace CheckybotLabs\LaravelFlare\Tests\Exceptions;
 
 use Spatie\ErrorSolutions\Contracts\BaseSolution;
 use Spatie\ErrorSolutions\Contracts\HasSolutionsForThrowable;

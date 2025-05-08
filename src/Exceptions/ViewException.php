@@ -1,9 +1,9 @@
 <?php
 
-namespace Emefye\LaravelErs\Exceptions;
+namespace CheckybotLabs\LaravelErs\Exceptions;
 
-use Emefye\LaravelErs\Recorders\DumpRecorder\HtmlDumper;
-use Emefye\LaravelErsClient\Contracts\ProvidesFlareContext;
+use CheckybotLabs\LaravelErs\Recorders\DumpRecorder\HtmlDumper;
+use CheckybotLabs\LaravelErsClient\Contracts\ProvidesFlareContext;
 use ErrorException;
 
 class ViewException extends ErrorException implements ProvidesFlareContext

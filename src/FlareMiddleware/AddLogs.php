@@ -1,10 +1,10 @@
 <?php
 
-namespace Emefye\LaravelErs\FlareMiddleware;
+namespace CheckybotLabs\LaravelErs\FlareMiddleware;
 
-use Emefye\LaravelErs\Recorders\LogRecorder\LogRecorder;
-use Emefye\LaravelErsClient\FlareMiddleware\FlareMiddleware;
-use Emefye\LaravelErsClient\Report;
+use CheckybotLabs\LaravelErs\Recorders\LogRecorder\LogRecorder;
+use CheckybotLabs\LaravelErsClient\FlareMiddleware\FlareMiddleware;
+use CheckybotLabs\LaravelErsClient\Report;
 
 class AddLogs implements FlareMiddleware
 {

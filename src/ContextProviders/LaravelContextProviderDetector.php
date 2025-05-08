@@ -1,9 +1,9 @@
 <?php
 
-namespace Emefye\LaravelErs\ContextProviders;
+namespace CheckybotLabs\LaravelErs\ContextProviders;
 
-use Emefye\LaravelErsClient\Context\ContextProvider;
-use Emefye\LaravelErsClient\Context\ContextProviderDetector;
+use CheckybotLabs\LaravelErsClient\Context\ContextProvider;
+use CheckybotLabs\LaravelErsClient\Context\ContextProviderDetector;
 use Illuminate\Http\Request;
 use Livewire\LivewireManager;
 

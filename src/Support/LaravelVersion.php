@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErs\Support;
+namespace CheckybotLabs\LaravelErs\Support;
 
 class LaravelVersion
 {
