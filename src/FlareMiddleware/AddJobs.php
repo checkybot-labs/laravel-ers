@@ -1,10 +1,10 @@
 <?php
 
-namespace Emefye\LaravelErs\FlareMiddleware;
+namespace CheckybotLabs\LaravelErs\FlareMiddleware;
 
-use Emefye\LaravelErs\Recorders\JobRecorder\JobRecorder;
-use Emefye\LaravelErsClient\FlareMiddleware\FlareMiddleware;
-use Emefye\LaravelErsClient\Report;
+use CheckybotLabs\LaravelErs\Recorders\JobRecorder\JobRecorder;
+use CheckybotLabs\LaravelErsClient\FlareMiddleware\FlareMiddleware;
+use CheckybotLabs\LaravelErsClient\Report;
 
 class AddJobs implements FlareMiddleware
 {

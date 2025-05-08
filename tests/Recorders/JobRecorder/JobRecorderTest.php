@@ -7,7 +7,7 @@ use Illuminate\Queue\Jobs\RedisJob;
 use Illuminate\Queue\RedisQueue;
 use Illuminate\Support\Facades\Event;
 use Spatie\LaravelFlare\Recorders\JobRecorder\JobRecorder;
-use Spatie\LaravelFlare\Tests\stubs\Jobs\QueueableJob;
+use CheckybotLabs\LaravelFlare\Tests\stubs\Jobs\QueueableJob;
 
 it('can record a failed job', function () {
     $recorder = (new JobRecorder(app()));
@@ -18,7 +18,7 @@ it('can record a failed job', function () {
 
     $recorded = $recorder->getJob();
 
-    expect($recorded['name'])->toEqual('Spatie\LaravelFlare\Tests\stubs\Jobs\QueueableJob');
+    expect($recorded['name'])->toEqual('CheckybotLabs\LaravelFlare\Tests\stubs\Jobs\QueueableJob');
     expect($recorded['connection'])->toEqual('sync');
     expect($recorded['queue'])->toEqual('sync');
     $this->assertNotEmpty($recorded['uuid']);

@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\View;
 use Spatie\FlareClient\Flare;
-use Spatie\LaravelFlare\Tests\Mocks\FakeClient;
+use CheckybotLabs\LaravelFlare\Tests\Mocks\FakeClient;
 
 beforeEach(function () {
     Artisan::call('view:clear');

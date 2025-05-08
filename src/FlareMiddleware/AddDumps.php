@@ -1,11 +1,11 @@
 <?php
 
-namespace Emefye\LaravelErs\FlareMiddleware;
+namespace CheckybotLabs\LaravelErs\FlareMiddleware;
 
 use Closure;
-use Emefye\LaravelErs\Recorders\DumpRecorder\DumpRecorder;
-use Emefye\LaravelErsClient\FlareMiddleware\FlareMiddleware;
-use Emefye\LaravelErsClient\Report;
+use CheckybotLabs\LaravelErs\Recorders\DumpRecorder\DumpRecorder;
+use CheckybotLabs\LaravelErsClient\FlareMiddleware\FlareMiddleware;
+use CheckybotLabs\LaravelErsClient\Report;
 
 class AddDumps implements FlareMiddleware
 {

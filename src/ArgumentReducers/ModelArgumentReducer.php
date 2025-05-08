@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErs\ArgumentReducers;
+namespace CheckybotLabs\LaravelErs\ArgumentReducers;
 
 use Illuminate\Database\Eloquent\Model;
 use Spatie\Backtrace\Arguments\ReducedArgument\ReducedArgument;

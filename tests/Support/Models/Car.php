@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelFlare\Tests\Support\Models;
+namespace CheckybotLabs\LaravelFlare\Tests\Support\Models;
 
 class Car
 {

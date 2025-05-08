@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErs\ArgumentReducers;
+namespace CheckybotLabs\LaravelErs\ArgumentReducers;
 
 use Illuminate\Support\Collection;
 use Spatie\Backtrace\Arguments\ReducedArgument\ReducedArgumentContract;

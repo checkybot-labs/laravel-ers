@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErs\Exceptions;
+namespace CheckybotLabs\LaravelErs\Exceptions;
 
 use Spatie\ErrorSolutions\Contracts\ProvidesSolution;
 use Spatie\ErrorSolutions\Contracts\Solution;

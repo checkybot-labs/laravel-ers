@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErs\Views;
+namespace CheckybotLabs\LaravelErs\Views;
 
 use Illuminate\View\Compilers\BladeCompiler;
 use Throwable;

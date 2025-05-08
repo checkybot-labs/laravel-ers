@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErs\Recorders\LogRecorder;
+namespace CheckybotLabs\LaravelErs\Recorders\LogRecorder;
 
 use Illuminate\Log\Events\MessageLogged;
 

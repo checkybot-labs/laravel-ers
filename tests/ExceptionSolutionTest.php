@@ -5,8 +5,8 @@ use Spatie\ErrorSolutions\Contracts\BaseSolution;
 use Spatie\ErrorSolutions\SolutionProviderRepository;
 use Spatie\ErrorSolutions\SolutionProviders\BadMethodCallSolutionProvider;
 use Spatie\ErrorSolutions\SolutionProviders\Laravel\MissingAppKeySolutionProvider;
-use Spatie\LaravelFlare\Tests\Exceptions\AlwaysFalseSolutionProvider;
-use Spatie\LaravelFlare\Tests\Exceptions\AlwaysTrueSolutionProvider;
+use CheckybotLabs\LaravelFlare\Tests\Exceptions\AlwaysFalseSolutionProvider;
+use CheckybotLabs\LaravelFlare\Tests\Exceptions\AlwaysTrueSolutionProvider;
 
 it('returns possible solutions', function () {
     $repository = new SolutionProviderRepository();

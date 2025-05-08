@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErs\Recorders\JobRecorder;
+namespace CheckybotLabs\LaravelErs\Recorders\JobRecorder;
 
 use DateTime;
 use Error;

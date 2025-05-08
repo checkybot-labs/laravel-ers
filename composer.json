@@ -1,26 +1,19 @@
 {
-    "name": "emefye/laravel-ers",
+    "name": "checkybot-labs/laravel-ers",
     "description": "Laravel Error Reporting System",
     "keywords": [
         "error",
         "laravel",
         "report"
     ],
-    "authors": [
-        {
-            "name": "Emefye",
-            "email": "fuadyahya09@gmail.com",
-            "role": "Developer"
-        }
-    ],
-    "homepage": "https://flareapp.io/",
+    "homepage": "https://checkybot.com/",
     "license": "MIT",
     "require": {
         "php": "^8.1",
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "emefye/laravel-ers-client": "^1.0",
+        "checkybot-labs/laravel-ers-client": "^1.0",
         "illuminate/support": "^11.0|^12.0",
         "spatie/error-solutions": "^1.1.3",
         "spatie/laravel-error-share": "^1.0.3",
@@ -62,12 +55,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Emefye\\LaravelErs\\": "src"
+            "CheckybotLabs\\LaravelErs\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\LaravelFlare\\Tests\\": "tests"
+            "CheckybotLabs\\LaravelFlare\\Tests\\": "tests"
         }
     },
 

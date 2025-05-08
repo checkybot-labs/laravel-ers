@@ -1,9 +1,9 @@
 <?php
 
-namespace Emefye\LaravelErs\Views;
+namespace CheckybotLabs\LaravelErs\Views;
 
-use Emefye\LaravelErs\Exceptions\ViewException as FlareViewException;
-use Emefye\LaravelErs\Exceptions\ViewExceptionWithSolution;
+use CheckybotLabs\LaravelErs\Exceptions\ViewException as FlareViewException;
+use CheckybotLabs\LaravelErs\Exceptions\ViewExceptionWithSolution;
 use Illuminate\Contracts\View\Engine;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Arr;

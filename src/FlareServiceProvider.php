@@ -1,22 +1,22 @@
 <?php
 
-namespace Emefye\LaravelErs;
+namespace CheckybotLabs\LaravelErs;
 
-use Emefye\LaravelErs\Commands\TestCommand;
-use Emefye\LaravelErs\ContextProviders\LaravelContextProviderDetector;
-use Emefye\LaravelErs\Exceptions\InvalidConfig;
-use Emefye\LaravelErs\FlareMiddleware\AddJobs;
-use Emefye\LaravelErs\FlareMiddleware\AddLogs;
-use Emefye\LaravelErs\FlareMiddleware\AddQueries;
-use Emefye\LaravelErs\Recorders\DumpRecorder\DumpRecorder;
-use Emefye\LaravelErs\Recorders\JobRecorder\JobRecorder;
-use Emefye\LaravelErs\Recorders\LogRecorder\LogRecorder;
-use Emefye\LaravelErs\Recorders\QueryRecorder\QueryRecorder;
-use Emefye\LaravelErs\Support\FlareLogHandler;
-use Emefye\LaravelErs\Support\SentReports;
-use Emefye\LaravelErs\Views\ViewExceptionMapper;
-use Emefye\LaravelErsClient\Flare;
-use Emefye\LaravelErsClient\FlareMiddleware\AddSolutions;
+use CheckybotLabs\LaravelErs\Commands\TestCommand;
+use CheckybotLabs\LaravelErs\ContextProviders\LaravelContextProviderDetector;
+use CheckybotLabs\LaravelErs\Exceptions\InvalidConfig;
+use CheckybotLabs\LaravelErs\FlareMiddleware\AddJobs;
+use CheckybotLabs\LaravelErs\FlareMiddleware\AddLogs;
+use CheckybotLabs\LaravelErs\FlareMiddleware\AddQueries;
+use CheckybotLabs\LaravelErs\Recorders\DumpRecorder\DumpRecorder;
+use CheckybotLabs\LaravelErs\Recorders\JobRecorder\JobRecorder;
+use CheckybotLabs\LaravelErs\Recorders\LogRecorder\LogRecorder;
+use CheckybotLabs\LaravelErs\Recorders\QueryRecorder\QueryRecorder;
+use CheckybotLabs\LaravelErs\Support\FlareLogHandler;
+use CheckybotLabs\LaravelErs\Support\SentReports;
+use CheckybotLabs\LaravelErs\Views\ViewExceptionMapper;
+use CheckybotLabs\LaravelErsClient\Flare;
+use CheckybotLabs\LaravelErsClient\FlareMiddleware\AddSolutions;
 use Exception;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Foundation\Application;

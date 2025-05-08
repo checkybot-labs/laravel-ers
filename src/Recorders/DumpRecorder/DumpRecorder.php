@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErs\Recorders\DumpRecorder;
+namespace CheckybotLabs\LaravelErs\Recorders\DumpRecorder;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\Arr;

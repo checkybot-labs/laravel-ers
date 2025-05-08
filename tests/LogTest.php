@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Route;
 use Spatie\FlareClient\Flare;
 use Spatie\LaravelFlare\Support\SentReports;
-use Spatie\LaravelFlare\Tests\Mocks\FakeClient;
+use CheckybotLabs\LaravelFlare\Tests\Mocks\FakeClient;
 
 beforeEach(function () {
     config()->set('logging.channels.flare.driver', 'flare');

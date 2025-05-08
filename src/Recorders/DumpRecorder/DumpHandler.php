@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErs\Recorders\DumpRecorder;
+namespace CheckybotLabs\LaravelErs\Recorders\DumpRecorder;
 
 use Symfony\Component\VarDumper\Cloner\VarCloner;
 

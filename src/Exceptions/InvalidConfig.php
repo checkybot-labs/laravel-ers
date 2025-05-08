@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErs\Exceptions;
+namespace CheckybotLabs\LaravelErs\Exceptions;
 
 use Exception;
 use Monolog\Level;

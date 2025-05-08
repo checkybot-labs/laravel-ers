@@ -1,9 +1,9 @@
 <?php
 
-namespace Emefye\LaravelErs\Support;
+namespace CheckybotLabs\LaravelErs\Support;
 
-use Emefye\LaravelErsClient\Flare;
-use Emefye\LaravelErsClient\Report;
+use CheckybotLabs\LaravelErsClient\Flare;
+use CheckybotLabs\LaravelErsClient\Report;
 use InvalidArgumentException;
 use Monolog\Handler\AbstractProcessingHandler;
 use Monolog\Level;
