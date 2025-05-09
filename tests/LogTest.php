@@ -2,8 +2,8 @@
 
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Route;
-use Spatie\FlareClient\Flare;
-use Spatie\LaravelFlare\Support\SentReports;
+use CheckybotLabs\LaravelErsClient\Flare;
+use CheckybotLabs\LaravelErs\Support\SentReports;
 use CheckybotLabs\LaravelFlare\Tests\Mocks\FakeClient;
 
 beforeEach(function () {
@@ -149,7 +149,7 @@ it('will keep sent reports', function () {
     $this->fakeClient->assertRequestsSent(1);
 
     expect(app(SentReports::class)->all())->toHaveCount(1);
-    expect(\Spatie\LaravelFlare\Facades\Flare::sentReports()->all())->toHaveCount(1);
+    expect(\CheckybotLabs\LaravelErs\Facades\Flare::sentReports()->all())->toHaveCount(1);
 });
 
 // Datasets

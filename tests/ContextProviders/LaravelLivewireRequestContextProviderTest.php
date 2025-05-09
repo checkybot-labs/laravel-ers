@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use Spatie\LaravelFlare\ContextProviders\LaravelLivewireRequestContextProvider;
+use CheckybotLabs\LaravelErs\ContextProviders\LaravelLivewireRequestContextProvider;
 use CheckybotLabs\LaravelFlare\Tests\TestClasses\FakeLivewireManager;
 
 beforeEach(function () {

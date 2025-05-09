@@ -2,7 +2,7 @@
 
 use Illuminate\Foundation\Auth\User;
 use Illuminate\Support\Collection;
-use Spatie\LaravelFlare\Facades\Flare;
+use CheckybotLabs\LaravelErs\Facades\Flare;
 use CheckybotLabs\LaravelFlare\Tests\TestClasses\FakeArgumentsReducer;
 
 beforeEach(function () {
