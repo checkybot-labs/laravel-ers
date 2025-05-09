@@ -53,7 +53,7 @@ return [
     |
     */
 
-    'base_url' => env('FLARE_BASE_URL', 'https://checkybot.com/api/v1'),
+    'base_url' => env('CHECKYBOT_BASE_URL', 'https://checkybot.com/api/v1'),
 
     /*
     |
@@ -67,7 +67,7 @@ return [
     |
     */
 
-    'key' => env('FLARE_KEY'),
+    'key' => env('CHECKYBOT_KEY'),
 
     /*
     |--------------------------------------------------------------------------
@@ -202,7 +202,7 @@ return [
      * When a key is set, we'll send your exceptions to Open AI to generate a solution
      */
 
-    'open_ai_key' => env('FLARE_OPEN_AI_KEY'),
+    'open_ai_key' => env('CHECKYBOT_OPEN_AI_KEY'),
 
     /*
    |--------------------------------------------------------------------------
@@ -297,7 +297,7 @@ return [
     |
     */
 
-    'curl_timeout' => env('FLARE_CURL_TIMEOUT', 60),
+    'curl_timeout' => env('CHECKYBOT_CURL_TIMEOUT', 60),
 
     /*
     |--------------------------------------------------------------------------
@@ -312,6 +312,6 @@ return [
     |
     */
 
-    'curl_ssl_verify_peer' => env('FLARE_CURL_SSL_VERIFY_PEER', true),
+    'curl_ssl_verify_peer' => env('CHECKYBOT_CURL_SSL_VERIFY_PEER', true),
 
 ];
