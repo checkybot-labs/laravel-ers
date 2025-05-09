@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Context;
-use Spatie\LaravelFlare\Facades\Flare;
+use CheckybotLabs\LaravelErs\Facades\Flare;
 
 beforeEach(function () {
     // We need to duplicate the class check here because this runs before the skip check

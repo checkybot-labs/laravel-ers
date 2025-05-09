@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\View;
-use Spatie\FlareClient\Flare;
+use CheckybotLabs\LaravelErsClient\Flare;
 use CheckybotLabs\LaravelFlare\Tests\Mocks\FakeClient;
 
 beforeEach(function () {
@@ -27,9 +27,9 @@ beforeEach(function () {
 });
 
 it('can manually report exceptions', function () {
-    \Spatie\LaravelFlare\Facades\Flare::sendReportsImmediately();
+    \CheckybotLabs\LaravelErs\Facades\Flare::sendReportsImmediately();
 
-    \Spatie\LaravelFlare\Facades\Flare::report(new Exception());
+    \CheckybotLabs\LaravelErs\Facades\Flare::report(new Exception());
 
     $this->fakeClient->assertRequestsSent(1);
 });

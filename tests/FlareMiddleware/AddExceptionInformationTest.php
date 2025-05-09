@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\QueryException;
-use Spatie\LaravelFlare\Facades\Flare;
+use CheckybotLabs\LaravelErs\Facades\Flare;
 
 it('will add query information with a query exception', function () {
     $sql = 'select * from users where emai = "ruben@spatie.be"';
