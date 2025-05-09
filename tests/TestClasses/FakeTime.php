@@ -3,7 +3,7 @@
 namespace CheckybotLabs\LaravelFlare\Tests\TestClasses;
 
 use DateTimeImmutable;
-use Spatie\FlareClient\Time\Time;
+use CheckybotLabs\LaravelErsClient\Time\Time;
 
 class FakeTime implements Time
 {

@@ -1,25 +1,25 @@
 <?php
 
-use Spatie\FlareClient\FlareMiddleware\AddGitInformation;
-use Spatie\FlareClient\FlareMiddleware\RemoveRequestIp;
-use Spatie\FlareClient\FlareMiddleware\CensorRequestBodyFields;
-use Spatie\FlareClient\FlareMiddleware\CensorRequestHeaders;
+use CheckybotLabs\LaravelErsClient\FlareMiddleware\AddGitInformation;
+use CheckybotLabs\LaravelErsClient\FlareMiddleware\RemoveRequestIp;
+use CheckybotLabs\LaravelErsClient\FlareMiddleware\CensorRequestBodyFields;
+use CheckybotLabs\LaravelErsClient\FlareMiddleware\CensorRequestHeaders;
 use Spatie\ErrorSolutions\SolutionProviders\BadMethodCallSolutionProvider;
 use Spatie\ErrorSolutions\SolutionProviders\MergeConflictSolutionProvider;
 use Spatie\ErrorSolutions\SolutionProviders\UndefinedPropertySolutionProvider;
-use Spatie\LaravelFlare\FlareMiddleware\AddDumps;
-use Spatie\LaravelFlare\FlareMiddleware\AddEnvironmentInformation;
-use Spatie\LaravelFlare\FlareMiddleware\AddExceptionHandledStatus;
-use Spatie\LaravelFlare\FlareMiddleware\AddExceptionInformation;
-use Spatie\LaravelFlare\FlareMiddleware\AddJobs;
-use Spatie\LaravelFlare\FlareMiddleware\AddLogs;
-use Spatie\LaravelFlare\FlareMiddleware\AddQueries;
-use Spatie\LaravelFlare\FlareMiddleware\AddContext;
-use Spatie\LaravelFlare\FlareMiddleware\AddNotifierName;
-use Spatie\LaravelFlare\Recorders\DumpRecorder\DumpRecorder;
-use Spatie\LaravelFlare\Recorders\JobRecorder\JobRecorder;
-use Spatie\LaravelFlare\Recorders\LogRecorder\LogRecorder;
-use Spatie\LaravelFlare\Recorders\QueryRecorder\QueryRecorder;
+use CheckybotLabs\LaravelErs\FlareMiddleware\AddDumps;
+use CheckybotLabs\LaravelErs\FlareMiddleware\AddEnvironmentInformation;
+use CheckybotLabs\LaravelErs\FlareMiddleware\AddExceptionHandledStatus;
+use CheckybotLabs\LaravelErs\FlareMiddleware\AddExceptionInformation;
+use CheckybotLabs\LaravelErs\FlareMiddleware\AddJobs;
+use CheckybotLabs\LaravelErs\FlareMiddleware\AddLogs;
+use CheckybotLabs\LaravelErs\FlareMiddleware\AddQueries;
+use CheckybotLabs\LaravelErs\FlareMiddleware\AddContext;
+use CheckybotLabs\LaravelErs\FlareMiddleware\AddNotifierName;
+use CheckybotLabs\LaravelErs\Recorders\DumpRecorder\DumpRecorder;
+use CheckybotLabs\LaravelErs\Recorders\JobRecorder\JobRecorder;
+use CheckybotLabs\LaravelErs\Recorders\LogRecorder\LogRecorder;
+use CheckybotLabs\LaravelErs\Recorders\QueryRecorder\QueryRecorder;
 use Spatie\ErrorSolutions\SolutionProviders\Laravel\DefaultDbNameSolutionProvider;
 use Spatie\ErrorSolutions\SolutionProviders\Laravel\GenericLaravelExceptionSolutionProvider;
 use Spatie\ErrorSolutions\SolutionProviders\Laravel\IncorrectValetDbCredentialsSolutionProvider;
@@ -249,8 +249,8 @@ return [
         \Spatie\Backtrace\Arguments\Reducers\DateTimeArgumentReducer::class,
         \Spatie\Backtrace\Arguments\Reducers\DateTimeZoneArgumentReducer::class,
         \Spatie\Backtrace\Arguments\Reducers\SymphonyRequestArgumentReducer::class,
-        \Spatie\LaravelFlare\ArgumentReducers\ModelArgumentReducer::class,
-        \Spatie\LaravelFlare\ArgumentReducers\CollectionArgumentReducer::class,
+        \CheckybotLabs\LaravelErs\ArgumentReducers\ModelArgumentReducer::class,
+        \CheckybotLabs\LaravelErs\ArgumentReducers\CollectionArgumentReducer::class,
         \Spatie\Backtrace\Arguments\Reducers\StringableArgumentReducer::class,
     ],
 
@@ -281,7 +281,7 @@ return [
     */
 
     'overridden_groupings' => [
-//        Illuminate\Http\Client\ConnectionException::class => Spatie\FlareClient\Enums\OverriddenGrouping::ExceptionMessageAndClass,
+//        Illuminate\Http\Client\ConnectionException::class => CheckybotLabs\LaravelErsClient\Enums\OverriddenGrouping::ExceptionMessageAndClass,
     ],
 
     /*

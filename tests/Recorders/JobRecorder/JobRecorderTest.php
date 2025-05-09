@@ -6,7 +6,7 @@ use Illuminate\Queue\Events\JobExceptionOccurred;
 use Illuminate\Queue\Jobs\RedisJob;
 use Illuminate\Queue\RedisQueue;
 use Illuminate\Support\Facades\Event;
-use Spatie\LaravelFlare\Recorders\JobRecorder\JobRecorder;
+use CheckybotLabs\LaravelErs\Recorders\JobRecorder\JobRecorder;
 use CheckybotLabs\LaravelFlare\Tests\stubs\Jobs\QueueableJob;
 
 it('can record a failed job', function () {

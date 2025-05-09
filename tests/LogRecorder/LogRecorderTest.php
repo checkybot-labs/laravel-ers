@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Log\Events\MessageLogged;
-use Spatie\LaravelFlare\Recorders\LogRecorder\LogRecorder;
+use CheckybotLabs\LaravelErs\Recorders\LogRecorder\LogRecorder;
 
 it('limits the amount of recorded logs', function () {
     $recorder = new LogRecorder(app(), 200);

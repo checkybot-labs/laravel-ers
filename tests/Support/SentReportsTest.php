@@ -1,7 +1,7 @@
 <?php
 
-use Spatie\FlareClient\Report;
-use Spatie\LaravelFlare\Support\SentReports;
+use CheckybotLabs\LaravelErsClient\Report;
+use CheckybotLabs\LaravelErs\Support\SentReports;
 
 beforeEach(function () {
     $this->sentReports = new SentReports();

@@ -4,10 +4,10 @@ namespace CheckybotLabs\LaravelFlare\Tests;
 
 use Illuminate\Foundation\Testing\Concerns\MakesHttpRequests;
 use Illuminate\Http\Request;
-use Spatie\FlareClient\Glows\Glow;
-use Spatie\FlareClient\Report;
-use Spatie\LaravelFlare\Facades\Flare;
-use Spatie\LaravelFlare\FlareServiceProvider;
+use CheckybotLabs\LaravelErsClient\Glows\Glow;
+use CheckybotLabs\LaravelErsClient\Report;
+use CheckybotLabs\LaravelErs\Facades\Flare;
+use CheckybotLabs\LaravelErs\FlareServiceProvider;
 use CheckybotLabs\LaravelFlare\Tests\TestClasses\FakeTime;
 use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
 
