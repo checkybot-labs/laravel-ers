@@ -46,10 +46,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\LaravelFlare\\FlareServiceProvider"
+                "CheckybotLabs\\LaravelErs\\FlareServiceProvider"
             ],
             "aliases": {
-                "Flare": "Spatie\\LaravelFlare\\Facades\\Flare"
+                "Flare": "CheckybotLabs\\LaravelErs\\Facades\\Flare"
             }
         }
     },
