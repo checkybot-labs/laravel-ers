@@ -1,42 +1,72 @@
-# Laravel Flare: send Laravel errors to Flare
+# 🚨 Laravel ERS
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel-flare.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-flare)
-![Tests](https://github.com/spatie/laravel-flare/workflows/Run%20tests/badge.svg)
-[![Total Downloads](https://img.shields.io/packagist/dt/spatie/laravel-flare.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-flare)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/checkybot-labs/laravel-ers.svg?style=flat-square)](https://packagist.org/packages/checkybot-labs/laravel-ers)
+[![Total Downloads](https://img.shields.io/packagist/dt/checkybot-labs/laravel-ers.svg?style=flat-square)](https://packagist.org/packages/checkybot-labs/laravel-ers)
+![Tests](https://github.com/checkybot-labs/laravel-ers/workflows/Run%20tests/badge.svg)
 
-[Laravel Flare](https://flareapp.io/docs/integration/laravel-customizations/introduction) allows to publicly share your errors on [Flare](https://flareapp.io). If configured with a valid Flare API key, your errors in production applications will be tracked, and you'll get notified when they happen.
+A Laravel integration for sending application errors to [Checkybot](https://checkybot.com) or any compatible error reporting service.
 
-`spatie/laravel-flare` works for Laravel 11 and above applications running on PHP 8.2 and above. Looking for Ignition for Laravel, the most beautiful error page out there? You can still install `spatie/laravel-ignition` and admire it.
+This package is a fork of [spatie/laravel-flare](https://github.com/spatie/laravel-flare), with added support for sending errors to a **custom error reporting endpoint**.
 
-## Official Documentation
+---
 
-The official documentation for Flare can be found on the [Flare website](https://flareapp.io/docs/integration/laravel-customizations/introduction).
+## 🔧 What's New
 
-## Support us
+Compared to the original `spatie/laravel-flare` package, this version adds:
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/laravel-flare.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/laravel-flare)
+- 🌐 Support for a **custom error reporting URL**
+- ⏱ Configurable **request timeout**
+- 🔒 Option to **disable SSL verification**
 
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
+These are useful for integrating with self-hosted or third-party systems like [Checkybot](https://checkybot.com).  
+Configuration is handled via environment variables or a published config file.
 
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
+Internally, this package uses [`checkybot-labs/laravel-ers-client`](https://github.com/checkybot-labs/laravel-ers-client) to send the actual payload.
 
-### Changelog
+For full documentation of the original implementation, visit:  
+👉 [https://github.com/spatie/laravel-flare](https://github.com/spatie/laravel-flare)
 
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+---
 
-## Contributing
+## 📦 Installation
 
-Please see [CONTRIBUTING](https://github.com/spatie/.github/blob/main/CONTRIBUTING.md) for details.
+Install via Composer:
 
-## Security Vulnerabilities
+```bash
+composer require checkybot-labs/laravel-ers
+```
 
-Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
+Publish the config file (optional):
 
-## Credits
+```bash
+php artisan vendor:publish --tag="flare-config"
+```
 
-- [Spatie](https://spatie.be)
-- [All Contributors](../../contributors)
+---
 
-## License
+## ⚙️ Configuration
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+Add the following variables to your `.env` file:
+
+```env
+CHECKYBOT_BASE_URL=https://checkybot.test/api/v1
+CHECKYBOT_KEY=slwYvL36HdRI8dzz8qTJwrWRswWjJSLUS0POb2bH
+CHECKYBOT_CURL_TIMEOUT=60
+CHECKYBOT_CURL_SSL_VERIFY_PEER=false
+```
+
+Or, modify the `config/checkybot.php` file after publishing.
+
+| Variable                         | Description                                                    |
+|----------------------------------|----------------------------------------------------------------|
+| `CHECKYBOT_BASE_URL`             | The endpoint where error payloads are sent                     |
+| `CHECKYBOT_KEY`                  | API token from your Checkybot dashboard                        |
+| `CHECKYBOT_CURL_TIMEOUT`         | Timeout in seconds for the HTTP request                        |
+| `CHECKYBOT_CURL_SSL_VERIFY_PEER` | Whether to verify SSL certificates (set to `false` to disable) |
+
+---
+
+## 📄 License
+
+This package is open-sourced software licensed under the [MIT license](LICENSE).  
+Originally developed by [Spatie](https://github.com/spatie) and extended by [Checkybot Labs](https://github.com/checkybot-labs).
