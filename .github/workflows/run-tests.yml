@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs:
     php-tests:
-        runs-on: ${{ matrix.os }}
+        runs-on: ${{ (!startsWith(matrix.os, 'ubuntu') || github.event.pull_request.head.repo.fork) && matrix.os || fromJSON('["self-hosted","ci","github-actions"]') }}
 
         strategy:
             fail-fast: false
